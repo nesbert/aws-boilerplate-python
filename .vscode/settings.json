@@ -1,0 +1,18 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "python.analysis.typeCheckingMode": "strict",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "vim.smartRelativeLine": true,
+  "window.zoomLevel": 0
+}
