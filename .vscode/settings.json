@@ -4,15 +4,18 @@
   },
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
+  "python.analysis.inlayHints.pytestParameters": true,
   "python.analysis.typeCheckingMode": "strict",
+  "python.defaultInterpreterPath": "./venv/bin/python",
   "python.formatting.provider": "black",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.testing.pytestArgs": [
     "tests"
   ],
-  "python.testing.unittestEnabled": false,
+  "python.testing.cwd": "tests",
   "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
   "vim.smartRelativeLine": true,
   "window.zoomLevel": 0
 }
